@@ -1,0 +1,26 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地日志、进程文件和环境变量
+*.log
+*.log.*
+*.pid
+.env
+.env.*
+!.env.example
+
+# 编辑器与临时文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 本地工具配置及凭据目录
+/.agents/
+/.codex/
+/.aws/
